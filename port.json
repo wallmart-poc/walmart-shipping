@@ -1,0 +1,17 @@
+{
+  "identifier": "walmart-shipping",
+  "title": "Shipping Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "high",
+    "slack_channel": "#fulfillment",
+    "type": "grpc",
+    "tier": "backend",
+    "language": "Go",
+    "region": ["us-east-1", "us-west-2"]
+  },
+  "relations": {
+    "depends_on": []
+  }
+}
